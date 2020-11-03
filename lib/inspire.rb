@@ -13,7 +13,6 @@ class Inspire
 
   def make_the_request
     url = 'https://type.fit/api/quotes'
-    # url = 'https://rapidapi.com/api/HealThruWords'
     uri = URI(url)
     response = Net::HTTP.get(uri)
     response = JSON.parse(response)
