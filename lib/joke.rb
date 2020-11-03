@@ -22,4 +22,4 @@ class Joke
   end
 end
 
-# rubocop: enable Lint/UriEscapeUnescape
+# rubocop:enable Lint/UriEscapeUnescape
