@@ -1,7 +1,7 @@
 # Telegram_Inspirational_Bot
 Building a telegram inspirational bot that can be initialized on the command line(windows) / terminal(mac & linux) where it sends inspirational messages and jokes to a specific user on his or her telegram account
 
-This is a capstone project for the ruby curriculum at microverse which is an online coding school
+This is my capstone project for the ruby curriculum at microverse which is an online coding school
 
 ![Telegram_Inspirational_Bot-screen-shot](./readme.png)
 
