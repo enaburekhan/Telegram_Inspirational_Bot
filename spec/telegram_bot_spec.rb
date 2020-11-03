@@ -31,6 +31,5 @@ end
 
 
 Rspec.describe Joke do
-  describe '#make_the_request' do
-  end      
+       
 end    
