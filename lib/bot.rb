@@ -14,7 +14,8 @@ class Bot
           bot.api.send_message(chat_id: message.chat.id, text: "Hello, #{message.from.first_name},
             Welcome to inspirational chat bot created by Eric Enaburekhan, the chat bot is to keep you
             inspired and entertained.Use /start to start the bot, /stop to end the bot,
-            /inspire to get a diffrent inspirational quote everytime you request for it or /joke to get a joke everytime you request for it")
+            /inspire to get a diffrent inspirational quote everytime you request for it
+             or /joke to get a joke everytime you request for it")
 
         when '/stop'
           bot.api.send_message(chat_id: message.chat.id, text: "Bye, #{message.from.first_name}", date: message.date)
