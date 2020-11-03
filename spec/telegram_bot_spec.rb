@@ -1,7 +1,7 @@
 require_relative '../lib/inspire.rb'
 require_relative '../lib/joke.rb'
 
-Rspec.describe Inspire do
+RSpec.describe Inspire do
   describe '#make_the_request' do
     let(:request) { Inspire.new } 
     let(:request_json) { request.make_the_request }
@@ -30,6 +30,17 @@ Rspec.describe Inspire do
 end 
 
 
-Rspec.describe Joke do
-       
+RSpec.describe Joke do
+  describe '#make_the_request' do
+    let(:request) { Joke.new }
+    let(:request_json) { request.make_the_request }
+
+    it 'returns hash response if the request is successful' do
+      expect(request_json.class).to eql(Hash)    
+    end
+    
+    it 'returned array response should not be empty' do
+      expect(request_json.length).not_to eql(0)    
+    end    
+  end        
 end    
