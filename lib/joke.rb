@@ -1,4 +1,4 @@
-require 'telegram/bot'
+# rubocop:disable Lint/UriEscapeUnescape
 require 'net/http'
 require 'json'
 require_relative 'bot.rb'
@@ -21,3 +21,5 @@ class Joke
     response
   end
 end
+
+# rubocop: enable Lint/UriEscapeUnescape
