@@ -3,7 +3,7 @@ Building a telegram inspirational bot that can be initialized on the command lin
 
 This is a capstone project for the ruby curriculum at microverse which is an online coding school
 
-![onlineCodingDirectory-screen-shot](./read.png)
+![Telegram_Inspirational_Bot-screen-shot](./read.png)
 
 ## Built With
 
