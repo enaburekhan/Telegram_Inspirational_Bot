@@ -1,7 +1,7 @@
 require_relative '../lib/inspire.rb'
 require_relative '../lib/joke.rb'
 
-RSpec.describe Inspire do
+describe Inspire do
   describe '#make_the_request' do
     let(:request) { Inspire.new }
     let(:request_json) { request.make_the_request }
@@ -29,7 +29,7 @@ RSpec.describe Inspire do
   end
 end
 
-RSpec.describe Joke do
+describe Joke do
   describe '#make_the_request' do
     let(:request) { Joke.new }
     let(:request_json) { request.make_the_request }
