@@ -3,7 +3,7 @@ Building a telegram inspirational bot that can be initialized on the command lin
 
 This is a capstone project for the ruby curriculum at microverse which is an online coding school
 
-![Telegram_Inspirational_Bot-screen-shot](./read.png)
+![Telegram_Inspirational_Bot-screen-shot](./readme.png)
 
 ## Built With
 
@@ -15,12 +15,12 @@ This is a capstone project for the ruby curriculum at microverse which is an onl
 
 ## Getting Started
 
-This project involves using the ruby logics to sort a list of arr into order. 
+This project involves building a telegram bot that listens to command from any telegram account user and then provide response based on the command entered by the user. 
 
 ### Prerequisites
 
 To get this project up and running, you must have Ruby installed on your machine.
-To install Ruby, you can read this <a href "https://www.ruby-lang.org/en/documentation/installation">Documentation</a>
+To install Ruby, you can use this link: https://www.ruby-lang.org/en/documentation/installation/
 
 ### Installation
 
@@ -39,12 +39,9 @@ To install Ruby, you can read this <a href "https://www.ruby-lang.org/en/documen
 
 - Install Rspec gem in your system. To do this:
 - Open Command Prompt or Terminal and run:
-   - rspec --init
+   - rspec --init in the project directory
    - create the telegram_bot_spec.rb file
    - run rspec
-
-
-
 
 ## Author
 
@@ -54,19 +51,12 @@ To install Ruby, you can read this <a href "https://www.ruby-lang.org/en/documen
 - Twitter: [@enaburekhaneric](https://twitter.com/enaburekhaneric)
 - Linkedin: [@ericenaburekhan](https://www.linkedin.com/in/eric-enaburekhan-801a28100/)
 
-👤 **David Yao**
-
-- Github: [@daviidy](https://github.com/daviidy )
-- Twitter: [@DavidYao3](https://twitter.com/DavidYao3)
-- Linkedin: [@DavidYao](https://www.linkedin.com/in/david-yao-6bb95299/ 
-daviidy )
-
 
 ## Show your support
 
-If you've read this far, you must like the project! Give me a ⭐️!
+Contributions, issues and feature requests are welcome!.
 
 ## Acknowledgments
 
-- My thanks also goes to Microverse and all our peers and colleagues there.
+- My thanks goes to Microverse and all our peers and colleagues there.
 
