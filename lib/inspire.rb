@@ -3,7 +3,6 @@ require 'net/http'
 require 'json'
 require_relative 'bot.rb'
 
-# Get inspire quotes
 class Inspire
   attr_reader :values
 

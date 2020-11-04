@@ -2,7 +2,6 @@ require 'net/http'
 require 'json'
 require_relative 'bot.rb'
 
-# joke class
 class Joke
   attr_reader :values
 
