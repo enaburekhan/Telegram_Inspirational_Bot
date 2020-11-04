@@ -28,7 +28,7 @@ To install RUBY, you can use this link: https://www.ruby-lang.org/en/documentati
 
 **To get this project set up on your local machine, follow these simple steps:**
 
-- Clone the github repository https://github.com/enaburekhan/Telegram_Inspirational_Bot.git on your local machine
+- Clone the github repository using: git clone https://github.com/enaburekhan/Telegram_Inspirational_Bot.git on your local machine
 - Cd into the clone folder
 - Initialize the ruby gem files and run bundle install to install the dependencies
 - Create the bot.rb, inspire.rb and joke.rb file inside the lib directory.
