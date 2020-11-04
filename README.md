@@ -1,4 +1,4 @@
-# TElEGRAM_InSPIRATIONAL_BOT
+# TElEGRAM_INSPIRATIONAL_BOT
 Building a TELEGRAM Inspirational Bot that can be initialized on the command line(windows) / terminal(mac & linux) where it sends inspirational messages and jokes to a specific user on his or her TELEGRAM account
 
 This is my capstone project for the ruby curriculum at microverse which is an online coding school
