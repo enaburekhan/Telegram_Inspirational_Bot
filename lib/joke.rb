@@ -1,4 +1,3 @@
-
 require 'net/http'
 require 'json'
 require_relative 'bot.rb'
@@ -19,5 +18,3 @@ class Joke
     response
   end
 end
-
-

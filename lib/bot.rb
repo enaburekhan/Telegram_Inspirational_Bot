@@ -31,7 +31,5 @@ class Bot
         end
       end
     end
-  end   
+  end
 end
-
-
