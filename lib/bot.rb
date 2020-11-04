@@ -3,7 +3,7 @@ require_relative 'inspire.rb'
 require_relative 'joke.rb'
 require_relative '../config.rb'
 
-# Telegram bot API logic
+# class Bot
 class Bot
   def initialize
     Telegram::Bot::Client.run(token) do |bot|
