@@ -5,7 +5,7 @@ This is my capstone project for the ruby curriculum at microverse which is an on
 
 ![TELEGRAM_Inspirational_Bot-screen-shot](./image/bot.jpeg)
  
- [Video](https://www.loom.com/share/9693b6f97d6244928bef159752dedc66)
+ [Video](https://www.loom.com/share/04b89bd031074eb497db02efdb8ec9f3)
 
 ## Built With
 
