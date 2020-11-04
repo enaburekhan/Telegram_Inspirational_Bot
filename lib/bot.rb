@@ -3,7 +3,7 @@ require_relative 'inspire.rb'
 require_relative 'joke.rb'
 require_relative '../config.rb'
 
-# class Bot
+# rubocop:disable Metrics/MethodLength
 class Bot
   def initialize
     Telegram::Bot::Client.run(token) do |bot|
@@ -33,3 +33,5 @@ class Bot
     end
   end
 end
+
+# rubocop:enable Metrics/MethodLength

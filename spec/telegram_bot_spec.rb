@@ -2,7 +2,6 @@ require_relative '../lib/inspire.rb'
 require_relative '../lib/joke.rb'
 
 describe Inspire do
-
   describe '#select_random' do
     let(:random) { Inspire.new }
     let(:request_random) { random.select_random }
