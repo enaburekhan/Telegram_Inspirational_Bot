@@ -59,6 +59,7 @@ DEPENDENCIES
   net-http-persistent (~> 2.9, >= 2.9.4)
   rubocop
   telegram-bot-ruby
+  bundle exec rspec
 
 BUNDLED WITH
    2.1.2
