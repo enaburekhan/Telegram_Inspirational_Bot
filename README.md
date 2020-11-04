@@ -1,26 +1,26 @@
-# Telegram_Inspirational_Bot
-Building a telegram inspirational bot that can be initialized on the command line(windows) / terminal(mac & linux) where it sends inspirational messages and jokes to a specific user on his or her telegram account
+# TElEGRAM_InSPIRATIONAL_BOT
+Building a TELEGRAM Inspirational Bot that can be initialized on the command line(windows) / terminal(mac & linux) where it sends inspirational messages and jokes to a specific user on his or her TELEGRAM account
 
 This is my capstone project for the ruby curriculum at microverse which is an online coding school
 
-![Telegram_Inspirational_Bot-screen-shot](./readme.png)
+![TELEGRAM_Inspirational_Bot-screen-shot](./readme.png)
 
 ## Built With
 
-- Ruby 2.7.0
+- RUBY 2.7.0
 - VS Code
-- Telegram Bot API
+- TELEGRAM Bot API
 - Type fit Quotes API
 - Yo mamma Jokes API
 
 ## Getting Started
 
-This project involves building a telegram bot that listens to command from any telegram account user and then provide response based on the command entered by the user. 
+This project involves building a TELEGRAM bot that listens to command from any TELEGRAM account user and then provide response based on the command entered by the user. 
 
 ### Prerequisites
 
-To get this project up and running, you must have Ruby installed on your machine.
-To install Ruby, you can use this link: https://www.ruby-lang.org/en/documentation/installation/
+To get this project up and running, you must have RUBY installed on your machine.
+To install RUBY, you can use this link: https://www.ruby-lang.org/en/documentation/installation/
 
 ### Installation
 
@@ -32,16 +32,18 @@ To install Ruby, you can use this link: https://www.ruby-lang.org/en/documentati
 - Create the bot.rb, inspire.rb and joke.rb file inside the lib directory.
 - create the executional file called main.rb inside the bin directory
 - run ruby bin/main.rb
-- Navigate to your telegram account and find inspiration.bot
+- Navigate to your telegram account and search **inspiration.bot** or;
+- using this link: http://t.me/ricnic_bot, you can navigate to the **inspiration.bot**
 - Press the /start to follow the steps given
+- Press control C on terminal to end the program
 
 **How to Test the Methods In the Classes**
 
 - Install Rspec gem in your system. To do this:
 - Open Command Prompt or Terminal and run:
-   - rspec --init in the project directory
-   - create the telegram_bot_spec.rb file
-   - run rspec
+   - Rspec --init in the project directory
+   - Create the telegram_bot_spec.rb file
+   - Run rspec
 
 ## Author
 
