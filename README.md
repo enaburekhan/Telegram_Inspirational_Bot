@@ -3,7 +3,7 @@ Building a TELEGRAM Inspirational Bot that can be initialized on the command lin
 
 This is my capstone project for the ruby curriculum at microverse which is an online coding school
 
-![TELEGRAM_Inspirational_Bot-screen-shot](./image/bot.jpeg)
+![TELEGRAM_Inspirational_Bot-screen-shot](./readme.png)
  
  [Video](https://www.loom.com/share/04b89bd031074eb497db02efdb8ec9f3)
 
