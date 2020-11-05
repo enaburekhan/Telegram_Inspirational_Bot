@@ -1,12 +1,13 @@
 require 'telegram/bot'
 require_relative 'inspire.rb'
 require_relative 'joke.rb'
-require_relative '../config.rb'
-require 'dotenv/load'
+# require_relative '../config.rb'
+
 
 # rubocop:disable Metrics/MethodLength
 class Bot
   def initialize
+    token = '1478214366:AAESsJ-ne12dZG3HY4CO5haNipo5N5r5ZTA'
     Telegram::Bot::Client.run(token) do |bot|
       bot.listen do |message|
         case message.text
