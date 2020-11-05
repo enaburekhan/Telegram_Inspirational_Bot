@@ -2,6 +2,7 @@ require 'telegram/bot'
 require_relative 'inspire.rb'
 require_relative 'joke.rb'
 require_relative '../config.rb'
+require 'dotenv/load'
 
 # rubocop:disable Metrics/MethodLength
 class Bot
