@@ -1,15 +1,15 @@
 require 'telegram/bot'
 require_relative 'inspire.rb'
 require_relative 'joke.rb'
-require_relative '../config.rb'
-# require 'dotenv'
-# Dotenv.load('file1.env', 'file2.env')
+# require_relative '../config.rb'
+require 'dotenv'
+Dotenv.load('.env')
 
 # rubocop:disable Metrics/MethodLength
 
 class Bot
   def initialize
-    Telegram::Bot::Client.run(token) do |bot|
+    Telegram::Bot::Client.run(ENV['SECRET_KEY']) do |bot|
       bot.listen do |message|
         case message.text
         when '/start'
