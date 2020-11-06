@@ -1,3 +1,0 @@
-def token
-  '1478214366:AAESsJ-ne12dZG3HY4CO5haNipo5N5r5ZTA'
-end

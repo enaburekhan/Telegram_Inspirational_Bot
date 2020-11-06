@@ -10,4 +10,5 @@ textpattern/
 HISTORY.txt
 README.txt
 Gemfile.lock
+.env
   
